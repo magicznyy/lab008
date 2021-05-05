@@ -13,17 +13,6 @@
         tools:layout_editor_absoluteX="184dp"
         tools:layout_editor_absoluteY="142dp">
 
-        <Spinner
-            android:id="@+id/spinnerWybor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/textStan"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,9 +35,20 @@
 
         </LinearLayout>
 
+        <Spinner
+            android:id="@+id/spinnerWybor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textStan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Button
@@ -66,5 +66,15 @@
                 android:text="Wydaj" />
 
         </LinearLayout>
+
+        <EditText
+            android:id="@+id/multiLine"
+            android:layout_width="match_parent"
+            android:layout_height="317dp"
+            android:ems="15"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:paddingRight="0px" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
